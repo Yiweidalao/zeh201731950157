@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<p>Razor:@ViewBag.aaa</p>
+<div>
+    @for(int i = 0; i < 100; i++)
+    {
+        <p>这是Razor添加的段落：@i.ToString()</p>
+    }
+</div>
